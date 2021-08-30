@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Preguntas</string>
+    <string name="txt_titulo">¿Cuanto sabes de los 7 pecados capitales?</string>
+    <string name="txt_pregunta1">¿Como se llama la novia de meliodas?</string>
+    <string name="txt_pregunta2">¿Quien me tiene traumado XD?</string>
+    <string name="txt_pregunta3">¿Como se llama mi gato perdido?</string>
+    <string name="txt_pr1_res1">Elisabeth</string>
+    <string name="txt_pr1_res2">Lois</string>
+    <string name="txt_pr1_res3">Mayer</string>
+    <string name="txt_pr1_res4">Jessy</string>
+    <string name="txt_pr2_res1">Alejandra</string>
+    <string name="txt_pr2_res2">Mishell</string>
+    <string name="txt_pr2_res3">Andrea</string>
+    <string name="txt_pr2_res4">Karo</string>
+    <string name="txt_pr3_res1">Pacho</string>
+    <string name="txt_pr3_res2">Meliodas</string>
+    <string name="txt_pr3_res3">Javier</string>
+    <string name="txt_pr3_res4">Tiberio</string>
+    <string name="btn_siguiente">Siguiete pregunta</string>
+    <string name="btn_ir">Ir al cuestionario</string>
+    <string name="btn_fin">Obtener Resultado</string>
+    <string name="txt_resultado">Su resultado es: </string>
+    <string name="btn_inicio">Regresar al inicio</string>
+</resources>

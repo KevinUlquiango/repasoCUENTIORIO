@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pregunta3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="341dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txt_pregunta3"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:onClick="siguiente"
+        android:text="@string/btn_fin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/rb_pregunta1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/txt_pr3_res1" />
+
+        <RadioButton
+            android:id="@+id/rb_pregunta2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/txt_pr3_res2" />
+
+        <RadioButton
+            android:id="@+id/rb_pregunta3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/txt_pr3_res3" />
+
+        <RadioButton
+            android:id="@+id/rb_pregunta4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/txt_pr3_res4" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
